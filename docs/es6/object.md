@@ -205,9 +205,6 @@ Reflect.ownKeys({ [Symbol()]:0, b:0, 10:0, 2:0, a:0 })
 - Object.setPrototypeOf()，Object.getPrototypeOf()
 - Object.keys()，Object.values()，Object.entries()
 - Object.fromEntries()
-
-
-
 ### Object.is()
 
 严格判断两个值是否相等，与严格比较运算符（===）的行为基本一致，不同之处只有两个：一是`+0`不等于`-0`，二是`NaN`等于自身
